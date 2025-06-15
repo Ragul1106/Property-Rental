@@ -42,7 +42,7 @@ const PropertyDetail = () => {
       <div className="row align-items-start">
         <div className="col-md-7">
           <div className="property-image shadow-lg rounded mb-4">
-            <img src={property.image} alt={property.title} className="img-fluid rounded" />
+            <img src={property.image} alt={property.title} className="img-fluid rounded w-100" />
           </div>
         </div>
         <div className="col-md-5">
